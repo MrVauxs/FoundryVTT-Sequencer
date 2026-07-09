@@ -82,7 +82,7 @@ interface CoreMethods {
   /**
    * Plays all of this sequence's sections, resolves to the sequence instance
    */
-  play(inOptions?: PlayOptions): Promise<Sequence>;
+  play(inOptions?: PlayOptions): Promise<void>;
 
   /**
    * Turns the sequence into an array of objects to be reconstructed later
