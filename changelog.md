@@ -3,7 +3,7 @@
 # Version 4.2.3
 - *Sequencer* - Adjusted module typing (thank you MrVauxs on github!)
 - *Effects* - Fixed position calculation on effects and sounds with tiles on v14 (thank you aljames-arctic on github!)
-- *Effects* - Fixed custom PF2e template shapes not working with `.scaleToObject()`
+- *Effects* - Fixed custom PF2e template shapes not working with `.scaleToObject()` (thank you MrVauxs on github!)
 - *Effects* - Fixed `.loopOptions()` with `loops` set not limiting the number of loops when combined with a `.duration()` longer than the effect file's own duration
 
 # Version 4.2.2
