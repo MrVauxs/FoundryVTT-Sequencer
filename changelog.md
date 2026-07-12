@@ -1,5 +1,8 @@
 ## Changelog
 
+# Version 4.2.3
+- *Effects* - Fixed `.loopOptions()` with `loops` set not limiting the number of loops when combined with a `.duration()` longer than the effect file's own duration; the effect now plays its loops and then stays on its last frame until the duration ends
+
 # Version 4.2.2
 - *Effects* - Fixed `.copySprite()` not copying the sprites of tokens with scale on them
 - *Effects* - Fixed `.mask()` not working on Tokens or Tiles
