@@ -1,7 +1,10 @@
 ## Changelog
 
 # Version 4.2.3
-- *Effects* - Fixed `.loopOptions()` with `loops` set not limiting the number of loops when combined with a `.duration()` longer than the effect file's own duration; the effect now plays its loops and then stays on its last frame until the duration ends
+- *Sequencer* - Adjusted module typing (thank you MrVauxs on github!)
+- *Effects* - Fixed position calculation on effects and sounds with tiles on v14 (thank you aljames-arctic on github!)
+- *Effects* - Fixed custom PF2e template shapes not working with `.scaleToObject()`
+- *Effects* - Fixed `.loopOptions()` with `loops` set not limiting the number of loops when combined with a `.duration()` longer than the effect file's own duration
 
 # Version 4.2.2
 - *Effects* - Fixed `.copySprite()` not copying the sprites of tokens with scale on them
